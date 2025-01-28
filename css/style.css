@@ -39,7 +39,12 @@ header nav ul {
     gap: 50px;
 }
 
+header nav ul li a:hover{
+    border-bottom: 3px solid #46a358;
+}
+
 header nav ul li a {
+    padding: 24px 0px;
     font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 16px;
@@ -166,7 +171,6 @@ header .login:hover svg path {
 .layout .categories {
     width: 310px;
     background: #fbfbfb;
-
 }
 
 .layout .categories h3 {
@@ -179,8 +183,6 @@ header .login:hover svg path {
 }
 
 .layout .categories ul {
-    display: flex;
-    flex-direction: column;
     margin-left: 30px;
     padding-bottom: 342px;
 }
@@ -241,6 +243,16 @@ header .login:hover svg path {
     color: #3d3d3d;
 }
 
+.layout .product-list .product_svg {
+    position: relative;
+    top: -20px;
+}
+.layout .product-list .product_svg ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .layout .product-list {
     margin-top: 38px;
     display: flex;
@@ -248,19 +260,42 @@ header .login:hover svg path {
     gap: 70px 30px;
 }
 
+.layout .product-list .frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    position: relative;
+    bottom: 30px;
+}
+
+.layout .product-list .frame a:hover svg path{
+    fill: #46a358;
+}
+
+.layout .product-list article{
+    border-top: 3px solid transparent;
+}
+
+.layout .product-list article:hover {
+    border-top: 3px solid #46a358;
+}
+
 .layout .product-list img {
     width: 258px;
     background: #fbfbfb;
 }
 
-.layout .product-list  h4{
+.layout .product-list h4 {
+    margin-top: -10px;
     font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     color: #3d3d3d;
 }
-.layout .product-list p{
+
+.layout .product-list p {
     margin-top: 5px;
     font-family: 'cera_proregular';
     font-weight: 700;
@@ -271,8 +306,7 @@ header .login:hover svg path {
 
 .layout .page_number {
     margin: 50px 0;
-    display: flex;
-    justify-content: flex-end;
+    float: right;
 }
 
 .layout .page_number ul {
@@ -281,14 +315,17 @@ header .login:hover svg path {
 }
 
 .layout .page_number ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid #e5e5e5;
     font-family: 'cera_proregular';
     text-decoration: none;
     font-weight: 300;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
-    padding: 9px 10px;
-    border: 1px solid #e5e5e5;
     border-radius: 4px;
 }
 
@@ -300,6 +337,196 @@ header .login:hover svg path {
     transition: 0.4s;
 }
 
+.blog_find .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.blog_find .find_more {
+    display: flex;
+    align-items: center;
+}
+
+.blog_find img {
+    position: relative;
+    top: -50px;
+    height: 287px;
+    width: 287px;
+}
+
+.blog_find .find_more {
+    background: #fbfbfb;
+}
+
+.blog_find h4 {
+    margin-right: 20px;
+    font-family: 'cera_proregular';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+}
+
+.blog_find p {
+    margin-right: 20px;
+    margin-top: 9px;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+}
+
+.blog_find .find_more_button {
+    margin-top: 25px;
+    margin-right: 30px;
+    gap: 2px;
+    font-family: 'cera_proregular';
+    border: 1px solid #ffffff;
+    background: #46a358;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    padding: 10px 16px 10px 26px;
+    width: 45%;
+    float: right;
+}
+
+.blog_find .find_more_button svg {
+    margin-right: 4px;
+}
+
+.blog_find .find_more_button svg path {
+    transition: 0.4s;
+}
+
+.blog_find .find_more_button:hover {
+    border: 1px solid #46a358;
+    background-color: #ffffff;
+    color: #46a358;
+}
+
+.blog_find .find_more_button:hover svg path {
+    stroke: #46a358;
+    stroke-width: 1px;
+}
+
+.blog_posts .container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.blog_posts h3 {
+    font-family: 'cera_proregular';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+}
+
+.blog_posts .slogan {
+    margin-top: 15px;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+}
+
+.blog_posts .posts div {
+    background: #fbfbfb;
+}
+
+.blog_posts .posts img {
+    width: 277px;
+    height: 195px;
+}
+
+.blog_posts .date {
+    margin-left: 15px;
+    margin-top: 9px;
+    font-family: 'cera_proregular';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+}
+
+.blog_posts .text {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-family: 'cera_proregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+}
+
+.blog_posts .posts {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.blog_posts h4 {
+    margin-left: 15px;
+    margin-top: 4px;
+    font-family: 'cera_proregular';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+}
+
+.blog_posts .read_more_button {
+    margin-left: 15px;
+    margin-top: 9px;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    font-family: 'cera_proregular';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+}
+
+.blog_posts .read_more_button:hover {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+}
+
+.blog_posts .read_more_button:hover svg path {
+    fill: #46a358;
+    stroke-width: 1px;
+}
+
+.blog_posts span {
+    margin: 0 5px;
+}
 
 
 .registration {
