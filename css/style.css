@@ -260,17 +260,28 @@ header .login:hover svg path {
     gap: 70px 30px;
 }
 
+.layout .product-list article {
+    z-index: 3;
+    position: relative;
+}
+
 .layout .product-list .frame{
+    z-index: -1;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 27px;
-    position: relative;
-    bottom: 30px;
+    bottom: 52px;
+    left: 72px;
+}
+
+.layout .product-list article:hover .frame {
+    z-index: 1;
 }
 
 .layout .product-list .frame a:hover svg path{
-    fill: #46a358;
+    fill: #46a358;+
 }
 
 .layout .product-list article{
@@ -287,7 +298,7 @@ header .login:hover svg path {
 }
 
 .layout .product-list h4 {
-    margin-top: -10px;
+    padding-top: 10px;
     font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 16px;
