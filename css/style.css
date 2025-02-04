@@ -42,13 +42,13 @@ header nav ul li {
     position: relative;
 }
 
-header nav ul li a:hover{
+header nav ul li a:hover {
     font-weight: 700;
     font-size: 16px;
     color: #3d3d3d;
 }
 
-header nav ul li a:before{
+header nav ul li a:before {
     content: '';
     display: block;
     width: 0;
@@ -59,7 +59,7 @@ header nav ul li a:before{
     transition: 0.4s;
 }
 
-header nav ul li a:hover:before{
+header nav ul li a:hover:before {
     width: 100%;
 }
 
@@ -73,7 +73,7 @@ header nav ul li a {
     max-width: 178px;
 }
 
-header nav ul li .dropdown > li:last-of-type:hover .product-selection{
+header nav ul li .dropdown > li:last-of-type:hover .product-selection {
     display: block;
 }
 
@@ -102,7 +102,7 @@ header nav ul .drop .product-selection li a:hover {
     color: #fff;
 }
 
-header nav ul li .dropdown{
+header nav ul li .dropdown {
     display: none;
     list-style: none;
     position: absolute;
@@ -111,7 +111,7 @@ header nav ul li .dropdown{
     padding-top: 45px;
 }
 
-header nav ul li .dropdown a{
+header nav ul li .dropdown a {
     font-weight: 400;
     font-size: 16px;
     color: #3d3d3d;
@@ -124,11 +124,11 @@ header nav ul li .dropdown a{
     position: relative;
 }
 
-header nav ul li .dropdown a:hover:before{
+header nav ul li .dropdown a:hover:before {
     display: none;
 }
 
-header nav ul li .dropdown a:hover{
+header nav ul li .dropdown a:hover {
     background: #1a712a;
     font-weight: 700;
     font-size: 16px;
@@ -136,7 +136,7 @@ header nav ul li .dropdown a:hover{
     transition: 0.3s;
 }
 
-header nav ul li .dropdown > li:last-of-type > a:after{
+header nav ul li .dropdown > li:last-of-type > a:after {
     content: "";
     display: inline-block;
     width: 7px;
@@ -147,14 +147,13 @@ header nav ul li .dropdown > li:last-of-type > a:after{
     background-image: url("../img/arrow.svg");
 }
 
-header nav ul li .dropdown li:last-of-type a:hover:after{
+header nav ul li .dropdown li:last-of-type a:hover:after {
     background-image: url("../img/arrow-hover.svg");
 }
 
-header nav ul li.drop:hover .dropdown{
+header nav ul li.drop:hover .dropdown {
     display: block;
 }
-
 
 
 header .login {
@@ -190,7 +189,7 @@ header .login:hover svg path {
     stroke: #46a358;
 }
 
-.banner{
+.banner {
     margin-bottom: 30px;
 }
 
@@ -335,12 +334,12 @@ header .login:hover svg path {
     position: relative;
 }
 
-.layout .product .sortable ul li a:hover{
+.layout .product .sortable ul li a:hover {
     font-weight: 700;
     color: #46a358;
 }
 
-.layout .product .sortable ul li a:hover:before{
+.layout .product .sortable ul li a:hover:before {
     content: '';
     display: block;
     width: 100%;
@@ -364,7 +363,8 @@ header .login:hover svg path {
     position: relative;
     top: -20px;
 }
-.layout .product-list .product_svg ul{
+
+.layout .product-list .product_svg ul {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -381,7 +381,7 @@ header .login:hover svg path {
     position: relative;
 }
 
-.layout .product-list .frame{
+.layout .product-list .frame {
     z-index: -1;
     position: absolute;
     display: flex;
@@ -392,36 +392,36 @@ header .login:hover svg path {
     left: 72px;
 }
 
-.layout .product-list .frame a.buy-button{
+.layout .product-list .frame a.buy-button {
     background-image: url("../img/buybutton.svg");
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
 }
 
-.layout .product-list .frame a.buy-button:hover{
+.layout .product-list .frame a.buy-button:hover {
     background-image: url("../img/greenbuybutton.svg");
 }
 
-.layout .product-list .frame a.like-button{
+.layout .product-list .frame a.like-button {
     background-image: url("../img/likebutton.svg");
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
 }
 
-.layout .product-list .frame a.like-button:hover{
+.layout .product-list .frame a.like-button:hover {
     background-image: url("../img/greenlikebutton.svg");
 }
 
-.layout .product-list .frame a.find-button{
+.layout .product-list .frame a.find-button {
     background-image: url("../img/findbutton.svg");
     background-repeat: no-repeat;
     width: 20px;
     height: 20px;
 }
 
-.layout .product-list .frame a.find-button:hover{
+.layout .product-list .frame a.find-button:hover {
     background-image: url("../img/greenfindbutton.svg");
 }
 
@@ -429,11 +429,11 @@ header .login:hover svg path {
     z-index: 1;
 }
 
-.layout .product-list .frame a:hover svg path{
+.layout .product-list .frame a:hover svg path {
     fill: #46a358;
 }
 
-.layout .product-list article{
+.layout .product-list article {
     border-top: 3px solid transparent;
     margin-bottom: 50px;
 }
@@ -523,7 +523,7 @@ header .login:hover svg path {
     background: #fbfbfb;
 }
 
-.blog_find img{
+.blog_find img {
     width: 292px;
     height: 292px;
 }
@@ -590,9 +590,10 @@ header .login:hover svg path {
     stroke-width: 1px;
 }
 
-.blog_posts{
+.blog_posts {
     margin-bottom: 100px;
 }
+
 .blog_posts .container {
     max-width: 1200px;
     padding-top: 60px;
@@ -656,7 +657,7 @@ header .login:hover svg path {
     gap: 30px;
 }
 
-.blog_posts .posts img{
+.blog_posts .posts img {
     width: 268px;
     height: 195px;
 }
@@ -700,7 +701,7 @@ header .login:hover svg path {
     margin: 0 5px;
 }
 
-.news .container{
+.news .container {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -709,11 +710,12 @@ header .login:hover svg path {
     background: #fbfbfb;
 }
 
-.news .container div{
+.news div {
     padding-top: 24px;
     max-width: 204px;
 }
-.news .container div:nth-child(2):before, .news .container div:nth-child(3):before {
+
+.news div:nth-child(2):before, .news .container div:nth-child(3):before {
     content: '';
     display: block;
     position: relative;
@@ -721,16 +723,16 @@ header .login:hover svg path {
     height: 1px;
     background: rgba(70, 163, 88, 0.1);
     transform: rotate(90deg);
-    top:100px;
+    top: 100px;
     right: 124px;
 }
 
-.news .container img {
+.news img {
     margin-left: 25px;
     margin-bottom: 15px;
 }
 
-.news .container h4{
+.news h4 {
     margin-left: 25px;
     font-family: 'cera_proregular';
     font-weight: 700;
@@ -740,7 +742,7 @@ header .login:hover svg path {
     margin-bottom: 9px;
 }
 
-.news .container p{
+.news p {
     margin-left: 25px;
     font-family: 'cera_proregular';
     font-weight: 400;
@@ -750,12 +752,12 @@ header .login:hover svg path {
     margin-bottom: 24px;
 }
 
-.news .container .newsletter {
+.news .newsletter {
     max-width: 354px;
     margin-right: 25px;
 }
 
-.news .container .newsletter h3{
+.news .newsletter h3 {
     font-family: 'cera_proregular';
     font-weight: 700;
     font-size: 18px;
@@ -764,13 +766,13 @@ header .login:hover svg path {
     margin-bottom: 25px;
 }
 
-.news .container .newsletter form{
+.news .newsletter form {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 18px;
 }
 
-.news .container .newsletter form input{
+.news .newsletter form input {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
     border: none;
     border-radius: 6px 0 0 6px;
@@ -783,11 +785,11 @@ header .login:hover svg path {
     padding: 12px 0 12px 11px;
 }
 
-.news .container .newsletter form input:focus{
+.news .newsletter form input:focus {
     outline: #46A358 solid 2px;
 }
 
-.news .container .newsletter form button{
+.news .newsletter form button {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
     outline: #46A358 solid 2px;
     border: none;
@@ -804,7 +806,7 @@ header .login:hover svg path {
     padding: 12px 25px;
 }
 
-.news .container .newsletter p {
+.news .newsletter p {
     font-family: 'cera_proregular';
     font-weight: 400;
     font-size: 13px;
@@ -819,15 +821,15 @@ header .login:hover svg path {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(70, 163, 88, 0.1);
+    background: linear-gradient(90deg, #edf6ef 0%, #52c368 100%);
     padding: 25px 0;
 }
 
-.contacts .container img {
+.contacts img {
     margin-left: 23px;
 }
 
-.contacts .container p{
+.contacts p {
     font-weight: 400;
     font-size: 14px;
     line-height: 157%;
@@ -839,11 +841,11 @@ header .login:hover svg path {
     gap: 8px;
 }
 
-.contacts .container .phone {
-    margin-right: 255px;
+.contacts .phone {
+    margin-right: 23px;
 }
 
-.contacts .container .address:before{
+.contacts .address:before {
     content: '';
     display: block;
     width: 20px;
@@ -851,7 +853,7 @@ header .login:hover svg path {
     background-image: url("../img/address.svg");
 }
 
-.contacts .container .email:before{
+.contacts .email:before {
     content: '';
     display: block;
     width: 20px;
@@ -859,13 +861,14 @@ header .login:hover svg path {
     background-image: url("../img/email.svg");
 }
 
-.contacts .container .phone:before {
+.contacts .phone:before {
     content: '';
     display: block;
     width: 20px;
     height: 20px;
     background-image: url("../img/phone.svg");
 }
+
 .lists .container {
     max-width: 1200px;
     margin: auto;
@@ -877,7 +880,7 @@ header .login:hover svg path {
     border-bottom: rgba(70, 163, 88, 0.2) solid 2px;
 }
 
-.lists .container h2{
+.lists h2 {
     font-family: 'cera_proregular';
     font-weight: 700;
     font-size: 18px;
@@ -886,7 +889,7 @@ header .login:hover svg path {
     margin-bottom: 8px;
 }
 
-.lists .container ul li a{
+.lists ul li a {
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
@@ -895,39 +898,54 @@ header .login:hover svg path {
     font-family: 'cera_proregular';
 }
 
-.lists .container ul li a:hover{
+.lists ul li a:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
 
-.lists .container .social-accept{
-    margin-right: 179px ;
+.lists .social-accept {
+    margin-right: 179px;
 }
 
-.lists .container .social-accept ul{
+.lists .social-accept ul {
     display: flex;
     gap: 10px;
     margin-bottom: 33px;
 }
-.lists .container .social-accept h2{
+
+.lists .social-accept h2 {
     margin-bottom: 20px;
 }
 
-.lists .container .social-accept ul li a{
+.lists .social-accept ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    list-style-type:  none;
+    list-style-type: none;
     border: 1px solid rgba(70, 163, 88, 0.2);
     border-radius: 4px;
     width: 30px;
     height: 30px;
 }
 
-.lists .container .social-accept img {
+.lists .social-accept .social-media li a:hover {
+    background-color: #46A358;
+    border: 1px solid #46A358;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.lists .social-accept .social-media li a:hover svg path {
+    fill: #FFFFFF;
+    fill-opacity: 100%;
+    transition: 0.4s;
+}
+
+.lists .social-accept img {
     width: 224px;
     height: 26px;
 }
+
 
 .reserved {
     text-align: center;
@@ -939,7 +957,6 @@ header .login:hover svg path {
     color: #3d3d3d;
     font-family: 'cera_proregular';
 }
-
 
 
 .registration {
