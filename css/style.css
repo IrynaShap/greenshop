@@ -376,6 +376,19 @@ header .login:hover svg path {
     gap: 70px 30px;
 }
 
+.layout .product-list .discount{
+    display: inline-block;
+    padding: 7px 9px;
+    background-color: #46A358;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    position: absolute;
+    text-transform: uppercase;
+    top: 14px;
+}
+
 .layout .product-list article {
     z-index: 3;
     position: relative;
@@ -710,12 +723,12 @@ header .login:hover svg path {
     background: #fbfbfb;
 }
 
-.news div {
+.news .last_news {
     padding-top: 24px;
     max-width: 204px;
 }
 
-.news div:nth-child(2):before, .news .container div:nth-child(3):before {
+.news .last_news:nth-child(2):before, .news .container div:nth-child(3):before {
     content: '';
     display: block;
     position: relative;
@@ -724,15 +737,15 @@ header .login:hover svg path {
     background: rgba(70, 163, 88, 0.1);
     transform: rotate(90deg);
     top: 100px;
-    right: 124px;
+    right: 120px;
 }
 
-.news img {
+.news .last_news img {
     margin-left: 25px;
     margin-bottom: 15px;
 }
 
-.news h4 {
+.news .last_news h4 {
     margin-left: 25px;
     font-family: 'cera_proregular';
     font-weight: 700;
@@ -742,7 +755,7 @@ header .login:hover svg path {
     margin-bottom: 9px;
 }
 
-.news p {
+.news .last_news p {
     margin-left: 25px;
     font-family: 'cera_proregular';
     font-weight: 400;
