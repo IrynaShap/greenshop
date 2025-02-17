@@ -987,6 +987,11 @@ header .login:hover svg path {
     position: relative;
     margin-left: 440px;
     margin-top: -10px;
+    text-decoration: none;
+}
+
+.close-btn a{
+    text-decoration: none;
 }
 
 .close-btn span {
