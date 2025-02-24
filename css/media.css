@@ -1,0 +1,246 @@
+@media only screen and (max-width: 640px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .invisible {
+        display: none;
+    }
+
+    header .container {
+        position: relative;
+        display: block;
+        margin: 0 16px;
+    }
+
+    header nav ul {
+        gap: 43px;
+        margin-top: 20px;
+    }
+
+    header .login {
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-width: 100px;
+
+    }
+
+    .banner .container {
+        padding-bottom: 100px;
+        display: block;
+        box-shadow: none;
+        position: relative;
+    }
+
+    .banner article {
+        margin: 0 16px;
+    }
+
+    .banner h3 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0.1em;
+    }
+
+    .banner h1 {
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 100%;
+    }
+
+    .banner p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+    }
+
+    .banner img {
+        max-width: 230px;
+        max-height: 208px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner .shop_now {
+        position: absolute;
+        display: block;
+        bottom: 35px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .layout .categories {
+        display: none;
+    }
+
+    .layout .product-list {
+        gap: 20px;
+        justify-content: space-between;
+    }
+
+    .layout .product-list img {
+        max-width: 152px;
+        max-height: 152px;
+    }
+
+    .layout .product {
+        margin: 0 12px;
+    }
+
+    .layout .product-list article {
+        max-width: 152px;
+        max-height: 312px;
+    }
+
+    .layout .product-list .frame {
+        z-index: 1;
+        bottom: 70px;
+        left: 20px;
+    }
+
+    .layout .sortable span {
+        display: none;
+    }
+
+    .layout .product .sortable ul {
+        gap: 25px;
+        margin: 0 45px;
+    }
+
+    .layout .product-list .discount {
+        padding: 4px 6px;
+        font-size: 14px;
+    }
+
+    .layout .product-list article {
+        text-align: center;
+        margin-bottom: 10px;
+        background-color: #fbfbfb;
+        padding: 10px 0;
+    }
+
+    .page_number {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .blog_find .container {
+        display: block;
+        margin: 0 auto;
+        padding-top: 0;
+    }
+
+    .blog_find .find_more {
+        margin: 30px 16px;
+        padding-bottom: 50px;
+        display: block;
+        box-shadow: none;
+        position: relative;
+    }
+
+    .blog_find .find_more img:nth-child(1) {
+        display: block;
+        margin: 0 auto 50px auto;
+        top: 0;
+    }
+
+    .blog_find .find_more h4 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .blog_find .find_more p {
+        text-align: center;
+    }
+
+    .blog_find .find_more_button {
+        max-width: 150px;
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+
+    .blog_posts{
+        margin-bottom: 20px;
+    }
+
+    .blog_posts .container {
+        display: block;
+        margin: 0 16px;
+        padding-top: 0;
+    }
+
+    .blog_posts .posts div {
+        margin: 0 auto;
+    }
+
+
+    .news .container {
+        display: block;
+        margin: 0 16px;
+    }
+
+    .news .last_news {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .news .last_news img {
+        margin: 0;
+    }
+
+    .news .last_news p, h4 {
+        margin: 15px 0;
+    }
+
+    .contacts .container {
+        display: block;
+        margin: 0 16px;
+    }
+
+    .contacts img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .contacts p:before {
+        margin: 0 auto;
+        padding: 10px 0;
+        background-repeat: no-repeat;
+    }
+
+    .contacts p {
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .contacts .phone{
+        margin-right: 0;
+    }
+
+    .lists .container{
+        flex-wrap: wrap;
+        margin: 0 16px;
+        padding: 20px;
+    }
+
+    .lists h2{
+        padding: 15px 0;
+    }
+
+    .lists .social-accept h2{
+        padding: 40px 0 15px 0;
+    }
+
+}

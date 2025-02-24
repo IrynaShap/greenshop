@@ -1114,7 +1114,7 @@ header .login:hover svg path {
     border-bottom-right-radius: 10px;
 }
 
-.preloader {
+/*.preloader {
     position: fixed;
     top: 0;
     left: 0;
@@ -1162,4 +1162,4 @@ header .login:hover svg path {
         height: 100%;
     }
 
-}
+}*/
