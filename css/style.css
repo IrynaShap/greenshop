@@ -189,6 +189,7 @@ header .login:hover svg path {
     stroke: #46a358;
 }
 
+
 .banner {
     margin-bottom: 30px;
 }
@@ -272,7 +273,7 @@ header .login:hover svg path {
 }
 
 .layout .categories {
-    width: 310px;
+    max-width: 310px;
     background: #fbfbfb;
 }
 
@@ -309,7 +310,7 @@ header .login:hover svg path {
 }
 
 .layout .product {
-    width: 840px;
+    max-width: 840px;
     margin-left: 50px;
 }
 
@@ -457,7 +458,7 @@ header .login:hover svg path {
 }
 
 .layout .product-list img {
-    width: 250px;
+    max-width: 250px;
     height: 250px;
     background: #fbfbfb;
 }
@@ -526,20 +527,25 @@ header .login:hover svg path {
     align-items: center;
 }
 
-.blog_find img {
+.blog_find .find_more img {
     position: relative;
-    top: -50px;
+    top: 220px;
     height: 287px;
-    width: 287px;
+    max-width: 287px;
 }
 
-.blog_find .find_more {
+.blog_find .find_more_area{
     background: #fbfbfb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .blog_find img {
-    width: 292px;
+
+    max-width: 292px;
     height: 292px;
+
 }
 
 .blog_find h4 {
@@ -611,7 +617,13 @@ header .login:hover svg path {
 .blog_posts .container {
     max-width: 1200px;
     padding-top: 60px;
-    margin: auto;
+    margin: 0 auto;
+}
+
+.blog_posts .blog_posts_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .blog_posts h3 {
@@ -640,7 +652,7 @@ header .login:hover svg path {
 
 .blog_posts .posts img {
     margin-bottom: 9px;
-    width: 277px;
+    max-width: 277px;
     height: 195px;
 }
 
@@ -733,7 +745,7 @@ header .login:hover svg path {
     content: '';
     display: block;
     position: relative;
-    width: 187px;
+    max-width: 187px;
     height: 1px;
     background: rgba(70, 163, 88, 0.1);
     transform: rotate(90deg);
@@ -790,7 +802,7 @@ header .login:hover svg path {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.06);
     border: none;
     border-radius: 6px 0 0 6px;
-    width: 354px;
+    max-width: 354px;
     height: 40px;
     font-weight: 400;
     font-size: 14px;
@@ -808,7 +820,7 @@ header .login:hover svg path {
     outline: #46A358 solid 2px;
     border: none;
     border-radius: 0 6px 6px 0;
-    width: 85px;
+    max-width: 85px;
     height: 40px;
     background: #46a358;
     font-family: 'cera_proregular';
