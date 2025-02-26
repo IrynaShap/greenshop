@@ -617,7 +617,7 @@ header .login:hover svg path {
 .blog_posts .container {
     max-width: 1200px;
     padding-top: 60px;
-    margin: 0 auto;
+margin: 0 auto;
 }
 
 .blog_posts .blog_posts_area {
@@ -725,6 +725,21 @@ header .login:hover svg path {
 
 .blog_posts span {
     margin: 0 5px;
+}
+
+.blog_posts .blog_post_area{
+    margin-right: 10px;
+}
+
+.find_more_area{
+    margin-right: 10px;
+}
+.blog_posts .blog_post_area:nth-child(2){
+    margin-right: 0;
+}
+
+.find_more_area:nth-child(4){
+    margin-right: 0;
 }
 
 .news .container {
